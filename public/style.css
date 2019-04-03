@@ -1,20 +1,110 @@
 /****** Main Styling ******/
 
+
+* {
+	box-sizing: border-box;
+}
+
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #ECF0F1;
+	font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+	margin: 2em;
 	text-align: center;
+	background-color: black;
+	color: #fff;
+}
+
+h1 {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+main {
+	margin: 10px auto;
+	border-left: 1px dotted red;
+	max-width: 800px;
+/*   text-align: left; */
+	padding: 10px 20px;
+}
+
+form {
+	margin-bottom: 25px;
+	padding: 15px;
+	background-color: #fff;
+	display: inline-block;
+	width: 100%;
+	max-width: 340px;
+	border-radius: 5px;
+	text-align: left;
+	color: black;
+}
+
+label{
+	margin-bottom: 10px;
+	display: block;
+}
+
+input {
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+input[type=submit] {
+	font-size: 16px;
+	border-radius: 3px;
+	background-color: #0639;
+	border: 1px solid grey;
+	box-shadow: 8px 8px 12px #999;
+	cursor: pointer;
+	color: white;
+}
+
+input[type=submit]:hover {
+	background-color: green;
+}
+
+p,h3,ul {
+	padding: 10px;
+}
+
+ol li {
+	list-style-type:none;
+	margin: 10px 0;
+}
+
+code {
+	background-color: green;
+	color: white;
+}
+
+a{
+	color: green;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 50px;
+	padding-top: 25px;
+	border-top: 1px solid lightgrey;
 }
 
 .container {
 	padding: 0;
 	margin-top: 40px;
-}
-
-.footer {
-	margin-top: 60px;
 }
 
 ol {
@@ -24,31 +114,20 @@ ul {
 	list-style-type: none;
 }
 
-a {
-	color: #2574A9;
-}
-
 input {
-  display: block;
-  position: relative;
-  margin: 10px auto;
+	display: block;
+	position: relative;
+	margin: 10px auto;
 
 }
 input#button {
-  width: 230px;
+	width: 230px;
 }
 .view {
-  position:relative;
-  margin: auto;
-  margin-top: 40px;
-  border: 1px  solid  #aaa;
-  padding: 20px;
-  width: 60%;
-  min-width: 400px;
-}
-/****** Logo Div Styling ******/
-
-img {
-	margin: 20px auto 0 auto;
-	display: block;
+	position:relative;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	width: 60%;
+	min-width: 370px;
 }
